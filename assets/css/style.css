@@ -446,6 +446,7 @@ main {
   background: var(--onyx);
   font-size: var(--fs-9);
   font-weight: var(--fw-300);
+  border: 1px solid #ccc;
   display: flex;
   width: max-content;
   padding: 3px 12px;
