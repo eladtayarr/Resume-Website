@@ -423,7 +423,7 @@ main {
 
 .sidebar-info {
   position: relative;
-  display: none;
+  display: flex;
   align-items: center;
   gap: 15px;
 }
