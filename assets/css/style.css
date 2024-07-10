@@ -447,7 +447,6 @@ main {
   font-size: var(--fs-9);
   font-weight: var(--fw-300);
   display: flex;
-  border: 1px solid #ccc;
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
