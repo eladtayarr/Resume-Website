@@ -543,31 +543,11 @@ main {
 .social-item .social-link {
   color: var(--light-gray-70);
   max-width: 100%;
-  height: auto;
-  font-size: 4vw; /* 4% of the viewport width */
-}
-
-@media (min-width: 600px) {
-  .social-item .social-link {
-    font-size: 3vw; /* 3% of the viewport width */
-  }
-}
-
-@media (min-width: 900px) {
-  .social-item .social-link {
-    font-size: 2vw; /* 2% of the viewport width */
-  }
-}
-
-@media (min-width: 1200px) {
-  .social-item .social-link {
-    font-size: 1.5vw; /* 1.5% of the viewport width */
-  }
+  font-size: 3vw; /* 4% of the viewport width */
 }
 
 
-
-.social-item .social-link:hover { color: var(--light-gray); }
+.social-item .social-link:hover { color: var(--light-gray); font-size: 3vw;}
 
 
 
@@ -1482,7 +1462,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info_more-btn ion-icon { display: none; }
 
-  .separator { margin: 32px 0; }
+  .separator { margin: 32px 0; margin-bottom: auto;}
 
   .contacts-list { gap: 20px; }
 
