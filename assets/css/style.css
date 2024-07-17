@@ -183,7 +183,7 @@ button.toggle-btn:hover {
 /* Dark mode styles */
 body.dark-mode {
   background-color: #f7f7f7;
-  color: var(--smoky-black);
+  color: var(--white-2);
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -199,6 +199,7 @@ body.dark-mode button.toggle-btn svg {
 
 body.dark-mode .sidebar,
 body.dark-mode article,
+body.dark-mode body,
 body.dark-mode .service,
 body.dark-mode .service-item,
 body.dark-mode .service-item-text,
@@ -1951,6 +1952,39 @@ textarea.form-input::-webkit-resizer { display: none; }
     z-index: 1;
   }
 
+  @media (min-width: 768px) {
+    .sidebar {
+      flex: 1 1 25%;
+    }
+    .main-content {
+      flex: 1 1 75%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .sidebar {
+      flex: 1 1 20%;
+    }
+    .main-content {
+      flex: 1 1 80%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .contact-form .form-input {
+      flex: 1 1 48%;
+      margin-right: 2%;
+    }
+    .contact-form .form-input:last-child {
+      margin-right: 0;
+    }
+  }
   .sidebar-info { flex-direction: column; }
 
   .avatar-box img { width: 150px; }
