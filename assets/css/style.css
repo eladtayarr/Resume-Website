@@ -447,8 +447,8 @@ main {
   background: var(--onyx);
   font-size: var(--fs-9);
   font-weight: var(--fw-300);
-  display: flex;
   border: 1px solid #ccc;
+  display: flex;
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
@@ -540,9 +540,13 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
+<<<<<<< HEAD
   max-width: 100%;
   height: auto;
   font-size: 35px;
+=======
+  font-size: 25px;
+>>>>>>> a86003b86f21ca9aead3746780e6c0dcc1ab015c
 }
 
 
