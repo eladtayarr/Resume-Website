@@ -1092,9 +1092,9 @@
         </section>
       
         <section class="contact-form">
-          <h3 class="h3 form-title">Contact Form</h3>
-      
-          <form id="contact-form" class="form" data-form>
+          <h3 class="h3 form-title">Contact</h3>
+        
+          <form id="contact-form" class="form" data-form action="send_email.php" method="post">
             <div class="input-wrapper">
               <input
                 type="text"
@@ -1104,7 +1104,7 @@
                 required
                 data-form-input
               />
-      
+        
               <input
                 type="email"
                 name="email"
@@ -1114,7 +1114,7 @@
                 data-form-input
               />
             </div>
-      
+        
             <textarea
               name="message"
               class="form-input"
@@ -1122,13 +1122,14 @@
               required
               data-form-input
             ></textarea>
-      
+        
             <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
           </form>
         </section>
+        
       </article>
     </main>
 
