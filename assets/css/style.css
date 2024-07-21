@@ -1760,6 +1760,65 @@ textarea.form-input::-webkit-resizer { display: none; }
   
 }
 
+.grid-container-media{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.grid-item-media {
+  
+  color: var(--white-2);
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+
+.form-btn-media {
+  position: relative;
+  width: 90%;
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border-radius: 14px;
+  font-size: var(--fs-5);
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.form-btn-media::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+  transition: var(--transition-1);
+}
+
+.form-btn-media ion-icon-media { font-size: 16px; }
+
+.form-btn-media:hover { background: var(--bg-gradient-yellow-1); }
+
+.form-btn-media:hover::before { background: var(--bg-gradient-yellow-2); }
+
+.form-btn-media:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.form-btn-media:disabled:hover { background: var(--border-gradient-onyx); }
+
+.form-btn-media:disabled:hover::before { background: var(--bg-gradient-jet); }
+
+
 
 
 
