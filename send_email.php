@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $subject = "New Contact Form Submission";
   $body = "Name: $fullname\nEmail: $email\n\nMessage:\n$message";
 
-  $headers = "From: eladtayarr.com"; // Replace with your domain
+  $headers = "From: $email"; // Replace with your domain
 
   if (mail($to, $subject, $body, $headers)) {
     echo "Message sent successfully!";
