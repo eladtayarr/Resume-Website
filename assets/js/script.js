@@ -172,4 +172,3 @@ document.getElementById('toggleButton').addEventListener('click', function() {
       lightIcon.style.display = 'none';
   }
 });
-
